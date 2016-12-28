@@ -1881,7 +1881,7 @@ var LargeLocalStorage = (function(Q) {
 }
 
 if (typeof define === 'function' && define.amd) {
-	define(['Q'], definition);
+	define(['q'], definition);
 } else {
 	glob.LargeLocalStorage = definition.call(glob, Q);
 }

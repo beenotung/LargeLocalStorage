@@ -40,5 +40,6 @@
     "yuidoc-library-theme": "git://github.com/tantaman/yuidoc-library-theme.git",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-uglify": "~0.2.4"
-  }
+  },
+  "dependencies": {}
 }
