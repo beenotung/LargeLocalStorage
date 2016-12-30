@@ -7,7 +7,7 @@ declare namespace LargeLocalStorageInterfaces {
   interface LargeLocalStorageService {
     new(options: Options): LargeLocalStorageService;
 
-    initialized: Promise<number>;
+    initialized: Promise<LargeLocalStorageService>;
 
     /**
      * Gets all of the attachments for a document.

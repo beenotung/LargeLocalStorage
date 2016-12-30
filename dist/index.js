@@ -1,6 +1,6 @@
 ;(function () {
   define(['./LargeLocalStorage'], function (lls) {
-    console.log('lls', lls);
+    // console.log('lls', lls);
     // var storage = new lls({size: 100 * 1024 * 1024});
     if (typeof exports === 'object') {
       module.exports = lls;
